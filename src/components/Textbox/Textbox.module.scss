@@ -1,0 +1,30 @@
+@import '../../theme/colors.scss';
+@import '../../theme/layout.scss';
+@import '../../theme/typo.scss';
+
+.rowContainer {
+    padding: $grid-tiny;
+}
+
+.columnContainer {
+    padding: $grid-tiny;
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    margin: $grid-tiny;
+}
+
+.textbox {
+    height: $font-standard;
+    margin: $grid-tiny;
+    min-width: 200px;
+    font-size: $font-standard;
+}
+
+.message {
+    margin: $grid-tiny;
+    color: $alert-color;
+    font-size: $font-small;
+}

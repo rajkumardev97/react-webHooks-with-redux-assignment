@@ -1,0 +1,23 @@
+@import '../../theme/colors.scss';
+@import '../../theme/layout.scss';
+@import '../../theme/colors.scss';
+
+.container {
+    height: 100%;
+    background-color: $primary-color;
+    width: 5 * $grid-xlarge;
+    color: $white-color;
+}
+
+.item {
+    color: $white-color;
+}
+ a {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 15px;
+}
+a:hover {
+    background: #1a2a3a;
+} 
